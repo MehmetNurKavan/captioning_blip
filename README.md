@@ -43,11 +43,11 @@ Bu projenin amacı, BLIP modeli kullanarak görseller için kaliteli açıklamal
 ## Sonuçlar
 
 - Prompt kullanılmadan:  
-  **Skor:** 0.17392  
+ ![Kaggle Score](https://img.shields.io/badge/Score-0.17392-blue)
 
 - Prompt kullanılarak:  
-  **Skor:** 0.15963 (daha iyi)  
-  **Sıralama:** 69.
+ ![Kaggle Score](https://img.shields.io/badge/Score-0.15963-blue)
+ ![Kaggle Rank](https://img.shields.io/badge/Kaggle%20Rank-69-orange)
 
 # rank
 
