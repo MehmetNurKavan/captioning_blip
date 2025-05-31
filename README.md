@@ -1,6 +1,6 @@
 # BLIP ile Görsel Açıklama Üretimi
 
-Bu repo, OBSS Stajyer Yarışması 2025 (Kaggle) için yaptığım kodlamaları içerir:  
+Bu repo, OBSS Stajyer Yarışması 2025 (Kaggle):  
 [https://www.kaggle.com/competitions/obss-intern-competition-2025/](https://www.kaggle.com/competitions/obss-intern-competition-2025/)  
 Kaggle profilim: [https://www.kaggle.com/mehmetnurkavan](https://www.kaggle.com/mehmetnurkavan)
 
@@ -14,27 +14,29 @@ Bu projenin amacı, BLIP modeli kullanarak görseller için kaliteli açıklamal
 
 ## Kullanılan Teknolojiler & Kütüphaneler
 
-- Python  
-- PyTorch  
-- Hugging Face Transformers  
-- BLIP (Bootstrapping Language-Image Pre-training)  
-- Kaggle API  
+- Programlama Dili: Python
+- Derin öğrenme: PyTorch
+- Veri işleme: pandas, PIL, sklearn
+- Model ve eğitim: Hugging Face Transformers "BLIP (Bootstrapping Language-Image Pre-training)"
+- Diğer: os, random, tqdm (yardımcı kütüphaneler)
+- Jupyter Notebook
+- Kaggle
 
 ---
 
 ## Klasör Yapısı
 
-/training_example/
-├── training_model.ipynb # BLIP modelini eğitimi için örnek kod
-/score_0.17392/
-├── blip-fine-tuning.ipynb # Prompt olmadan BLIP modelini eğittiğim kısım
-├── run_caption_and_eval.ipynb # Eğitilen model ile test.csv’den caption üretip submission.csv oluşturan kod
-├── submission.0.17392.csv # üretilen .csv dosyam
+/training_example/\
+├── training_model.ipynb # BLIP modelini eğitimi için örnek kod\
+/score_0.17392/\
+├── blip-fine-tuning.ipynb # Prompt olmadan BLIP modelini eğittiğim kısım\
+├── run_caption_and_eval.ipynb # Eğitilen model ile test.csv’den caption üretip submission.csv oluşturan kod\
+├── submission.0.17392.csv # üretilen .csv dosyam\
 
-/score_0.15963/
-├── blip-fine-tuning-with-prompt.ipynb # Prompt ile BLIP modelini eğittiğim kısım
-├── sub.ipynb # Eğitilen model ile test.csv’den caption üretip submission.csv oluşturan
-├── submission.0.15824.csv # üretilen .csv dosyam
+/score_0.15963/\
+├── blip-fine-tuning-with-prompt.ipynb # Prompt ile BLIP modelini eğittiğim kısım\
+├── sub.ipynb # Eğitilen model ile test.csv’den caption üretip submission.csv oluşturan\
+├── submission.0.15824.csv # üretilen .csv dosyam\
 
 ---
 
@@ -46,5 +48,12 @@ Bu projenin amacı, BLIP modeli kullanarak görseller için kaliteli açıklamal
 - Prompt kullanılarak:  
   **Skor:** 0.15963 (daha iyi)  
   **Sıralama:** 69.
+
+# rank
+
+![rank](https://github.com/user-attachments/assets/8763f691-9f3d-47c4-9582-7fa0bdbf31c8)
+
+# scores
+![score](https://github.com/user-attachments/assets/e6617950-cbf4-47b9-bcd3-4dbfbc602676)
 
 ---
